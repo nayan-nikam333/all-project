@@ -1,0 +1,616 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.menu-link ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.menu-link a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.classroom {
+    background-color: #3ea66b;
+    padding: 50px 100px;
+}
+
+.classroom-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.classroom-text {
+    background-color: #ffd83f;
+    padding: 24px 30px;
+    border-radius: 60px;
+    border: 2px solid black;
+    transform: rotate(-7deg);
+    margin-top: 30px;
+}
+
+.classroom-text h1 {
+    font-size: 65px;
+    margin: 0;
+    -webkit-text-stroke: 0.028125em rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0em 0em 0em rgba(255, 105, 83, 1.000000);
+}
+
+.class-text {
+
+    font-size: 40px;
+    font-weight: 680px;
+}
+
+.hub-text {
+    background-color: #fff;
+    padding: 24px 5px;
+    border-radius: 40px;
+    border: 1px solid;
+    transform: rotate(4deg);
+    width: 180px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.hub-text h1 {
+    font-size: 65px;
+    margin: 0;
+    -webkit-text-stroke: 0.028125em rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0em 0em 0em rgba(255, 105, 83, 1.000000);
+}
+
+.hub-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.class-text {
+    font-size: 34px;
+    font-weight: 400px;
+}
+
+.agenda-section {
+    display: flex;
+}
+
+.agenda-text-card {
+    background-color: #fffbe0;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 10px 33px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    margin: 38px 0px;
+}
+
+.cal-icon {
+    padding: 11px;
+    position: absolute;
+    left: -28px;
+    top: 12px;
+    color: #fff;
+    border: 2px solid black;
+}
+
+.left-cards {
+    margin: 0px 122px;
+}
+
+.class-room-polices {
+    text-align: center;
+}
+
+.today-agenda-icon {
+    background-color: #5cd1ff;
+    ;
+}
+
+.class-room-polices-icon {
+    background-color: #f9b2dc;
+}
+
+.class-cal-icon {
+    background-color: #9c8bef;
+}
+
+.meet-teacher-icon {
+    background-color: #ff8e51;
+}
+
+.class-news-icon {
+    background-color: #9c8bef;
+}
+
+.student-week-icon {
+    background-color: #ff8e51;
+}
+
+.class-resource-icon {
+    background-color: #f9b2dc;
+}
+
+.parent-class-icon {
+    background-color: #5cd1ff;
+}
+
+/* Todays Agenda Section */
+
+.today-agenda-section {
+    background-color: #fffbe0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 10px;
+}
+
+.today-agenda-title {
+    background-color: #ffd83f;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 25px 36px;
+    border: 2px solid #000;
+    border-radius: 7px;
+    position: relative;
+    width: 350px;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.today-ag-icon {
+    margin-top: -7px;
+}
+
+.today-agenda-box {
+    background-color: #feb0e1;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 36px;
+    width: 351px;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+
+.reminder-card {
+    margin-left: 100px;
+    margin-top: 72px;
+}
+
+.reminder-card-title span {
+    background-color: #ffd83f;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 15px 45px;
+    border: 1px solid #000;
+    border-radius: 44px;
+    position: relative;
+    left: 101px;
+    top: 22px;
+}
+
+.reminder-card-text {
+    background-color: #9c8bef;
+    border-radius: 7px;
+    width: 350px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 121px 45px;
+}
+
+/* class-room-polices-section */
+
+.class-room-polices-section {
+    background-color: #fffbe0;
+    padding: 50px 100px;
+}
+
+.main-div-classroom-policies {
+    font-size: 45px;
+    font-weight: 800;
+    padding: 14px 33px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    position: relative;
+    width: 650px;
+    margin: 0px 280px;
+    background-color: #ffd83f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div-classroom-policies-icon {
+    position: absolute;
+    left: -39px;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.main-div-classroom-policies-icon-clr {
+    background-color: #f9b2dc;
+}
+
+.policies-text-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policies-text-p {
+    color: #000000;
+    line-height: 1.25em;
+    font-weight: 300;
+    font-size: 34px;
+}
+
+.rule-table h1 {
+    border: 2px solid black;
+    width: 500px;
+    height: 62px;
+    border: radius 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rule-table-c1 {
+    background-color: #5cd1ff;
+}
+
+.rule-table-c2 {
+    background-color: #ff8e51;
+}
+
+.rule-table-c3 {
+    background-color: #f9b2dc;
+}
+
+.rule-table-c4 {
+    background-color: #9c8bef;
+}
+
+.rule-table-c5 {
+    background-color: #3ea66b;
+}
+
+/* student-of-the-week-section*/
+
+.student-of-the-week-section {
+    background-color: #3ea66b;
+    height: 550px;
+    padding: 40px 38px;
+}
+
+.sotw-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sotw-section span {
+    background-color: #fffbe0;
+    opacity: 1.0;
+    line-height: 1.28572232em;
+    border: 2px solid black;
+    height: 235px;
+    width: 540px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 228px;
+}
+
+.sotw-section p {
+    margin-left: 131px;
+    font-weight: 700;
+    margin-top: 70px;
+    font-size: 21px;
+    position: relative;
+}
+
+.sotw-section img {
+    width: 380px;
+    height: 373.998px;
+    border: 3px solid black;
+    border-radius: 210px;
+    margin-top: 110px;
+    position: absolute;
+    left: 295px;
+}
+
+/* Class Calender */
+
+.class-calender-section {
+    background-color: #fffbe0;
+    padding: 40px;
+}
+
+.class-calender-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-calender-main p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.class-cal-title {
+    margin-left: 47px;
+}
+
+.days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 175px;
+    padding: 10px;
+}
+
+.days a {
+    padding: 30px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    background-color: #9c8bef;
+    margin: 5px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timesubject {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.time {
+    padding: 30px;
+    background-color: tomato;
+    border: 1px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 30px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject {
+    border: 1px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 30px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customize {
+    border: 1px solid black;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 30px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* class Resources */
+
+.class-resources-section {
+    background-color: #3ea66b;
+    padding: 40px 100px;
+    display: flex;
+}
+
+.class-resorces-title {
+    margin-top: 100px;
+}
+
+.class-resources {
+    background-color: #ffd83f;
+    font-size: 40px;
+    font-weight: 900;
+    border: 2px solid #000;
+    border-radius: 7px;
+    position: relative;
+    left: 200px;
+    text-align: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.cls-res-icon {
+    padding: 15px;
+    top: 20px;
+}
+
+.class-res-text {
+    font-size: 25px;
+    padding: 20px 20px;
+    margin-left: 200px;
+    width: 333px;
+    font-weight: 300;
+}
+
+.addlinks {
+    margin-left: 100px;
+}
+
+.add1 {
+    padding: 15px 140px;
+    border: 1px solid black;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* meet the teacher section */
+
+.meet-the-teacher-section {
+    padding: 50px;
+    background-color: #fffbe0;
+}
+
+.techcontact {
+    display: flex;
+}
+
+.techinfo {
+    padding-left: 160px;
+}
+
+.teacher {
+    padding: 10px 40px;
+    width: 480px;
+    margin-top: 50px;
+    background-color: #5cd1ff;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.teacher h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.teacher span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contact-info {
+    padding: 10px 40px;
+    width: 480px;
+    margin-top: 15px;
+    background-color: #f9b2dc;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.contact span {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.lady-img {
+    margin: 60px 60px;
+}
+
+.lady-img img {
+    border-radius: 90%;
+    border: 3px solid black;
+    height: 400px;
+    width: 400px;
+}
+
+
+/*resource-page-for-parent-section */
+
+.resource-page-for-parent-section {
+    background-color: #3ea66b;
+    padding: 60px 10px;
+    margin-top: 1px;
+}
+
+.resource-page-title {
+    width: 775px;
+    margin-top: 10px;
+}
+
+
+.main-img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.resource-page-for-parent-box {
+    background-color: #fffbe0;
+    width: 265px;
+    margin: 4px 31px;
+    padding: 17px 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.resource-page-for-parent-box img {
+    height: 220px;
+    border: 2px solid black;
+    width: 260px;
+}
+
+/*class-news-section */
+
+.class-news-section {
+    background-color: #3ea66b;
+    padding: 40px 100px;
+
+}
+
+.class-news-text-box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-news-text-box {
+    background-color: #fffbe0;
+    margin: 53px 40px;
+    padding: 20px 38px;
+    border: 2px solid black;
+    height: 400px;
+    font-weight: 400;
+}
+
+.img-boy-and-girl {
+    height: 130px;
+    border: 2px solid black;
+    width: 260px;
+}
+
+.img-center {
+    width: 340px;
+    height: 160px;
+    border: 2px solid black;
+}

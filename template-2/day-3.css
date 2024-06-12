@@ -1,0 +1,13 @@
+.main-head-tag{
+    color: white;
+    background-color: rgba(255, 89, 0, 0.688);
+    text-align: center;   
+    font-weight: 200;
+}
+.main-head-tag:hover{
+    background-color:brown;
+    /* transform: rotate(10deg); */
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s
+}
+

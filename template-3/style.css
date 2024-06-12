@@ -1,0 +1,22 @@
+.img-parameter{
+    height: 650px;
+}
+
+.head-text{
+    color: #fd4d0d;  
+   margin-left: 370px;  
+}
+.text{
+    color: #d63384;
+    margin-left: 460px;
+}
+.btn-parameter{
+    margin-left: 190px;
+}
+.img-wrap{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}

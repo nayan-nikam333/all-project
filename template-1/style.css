@@ -1,0 +1,15 @@
+
+
+img[alt="logo-img"]{
+
+    width: 60px;
+    height: 80px;
+}
+
+.text-main{
+    color: blue;
+}
+
+.card-center{
+    padding-left: 120px;
+} 
