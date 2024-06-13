@@ -1,3 +1,5 @@
+
+
 @-webkit-keyframes ticker {
     0% {
         -webkit-transform: translate3d(0, 0, 0);
@@ -90,7 +92,7 @@ body {
     padding: 0;
     font-family: 'Work Sans', sans-serif;
     font-size: 16px;
-    font-weight: 400
+    font-weight: 400;
 }
 
 a {
@@ -105,7 +107,7 @@ a {
 .call-me-wrapper {
     background-color: #F36823;
     padding: 8px 0;
-    padding-left: 25px
+    padding-left: 25px;
 }
 
 .call-me-wrapper a.call-me {
@@ -130,7 +132,7 @@ header nav.navbar.navbar-expand-lg.fixed-header {
     top: 0;
     transition: 1s;
     z-index: 99;
-    box-shadow: 1px 1px 16px rgb(0 0 0 / 11%)
+    box-shadow: 1px 1px 16px rgb(0 0 0 / 11%);
 }
 
 header a.navbar-brand {
@@ -145,7 +147,7 @@ header a.navbar-brand p.iso-text {
     font-size: 9px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal
+    line-height: normal;
 }
 
 .iso-text-1 {
@@ -155,11 +157,11 @@ header a.navbar-brand p.iso-text {
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal
+    line-height: normal;
 }
 
 #mainNav li {
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 #mainNav li a {
@@ -167,7 +169,7 @@ header a.navbar-brand p.iso-text {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal
+    line-height: normal;
 }
 
 #mainNav li a.active,
@@ -199,30 +201,11 @@ header a.navbar-brand p.iso-text {
     cursor: pointer
 }
 
-#myModal .modal-dialog {
-    width: 350px
-}
-
-.placed-img {
-    width: 126px;
-    height: 126px;
-    border-radius: 100px;
-}
-
-.cmp-img {
-    height: 74px;
-    width: auto;
-}
-
-section.main-banner {
-    background-color: #F5F7FA;
-    height: 80vh;
-}
 
 section.main-banner h5.theme-sub-tiltle {
     color: #111;
     font-size: 18px;
-    font-weight: 400
+    font-weight: 400;
 }
 
 span.line {
@@ -235,21 +218,18 @@ span.line {
 }
 
 .section-courses {
-    background: url(../img/Group\ 541.jpg);
-    background-repeat: no-repeat;
+    background: url('../img/Group 541.jpg') no-repeat;
     background-size: cover;
-
 }
 
 .banner-content {
-    padding: 163px 100px;
+    padding: 163px 0px;
     color: #FFFFFF;
 }
 
 .main-title {
     font-size: 50px;
     font-weight: 600;
-
 }
 
 
@@ -271,12 +251,11 @@ span.line {
     width: 465px;
     height: 565px;
     top: 218px;
-    left: 123px;
+    margin-left: 80px;
 }
 
 .card-text {
     color: #07294D;
-    height: 35px;
     font-weight: 600;
     font-size: 30px;
     line-height: 35.19px;
@@ -289,7 +268,6 @@ span.line {
 .text-1200 {
     color: #535967;
     opacity: 50%;
-    height: 28px;
     font-weight: 600;
     font-size: 24px;
     line-height: 28.15px;
@@ -297,8 +275,6 @@ span.line {
 
 .calender-text {
     color: #F36823;
-    height: 19px;
-    width: 222px;
     font-size: 16px;
     font-weight: 500;
     line-height: 18.77px;
@@ -306,28 +282,19 @@ span.line {
 
 .calender-text-icon {
     color: #F36823;
-
-
 }
 
 .btn-clr {
     background-color: #07294D;
     color: #FFFFFF;
-    font-family: Work Sans;
     font-size: 15px;
     font-weight: 600;
     line-height: 17.6px;
-    text-align: left;
-    width: 148px;
-    height: 40px;
-    padding: 8px 15px;
+    padding: 8px 20px;
     margin-top: 20px;
-    margin-left: 20px;
 }
 
-
 .nav-section {
-    height: 80px;
     background-color: #F5F7FA;
     position: relative;
     z-index: -1;
@@ -341,18 +308,11 @@ span.line {
     font-size: 16px;
     font-weight: 600;
     line-height: 18.77px;
-
 }
 
-.help3 {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 18.77px;
-    color: #f26d2c;
-}
 
 .topic-section {
-    padding: 72px 144px;
+    padding: 40px 102px;
     font-size: 22px;
     font-weight: 700;
     line-height: 25.81px;
@@ -363,7 +323,7 @@ span.line {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    padding: 10px 33px;
+    padding: 10px 30px;
 }
 
 /* new css for lesssons */
@@ -371,12 +331,12 @@ span.line {
 .lessons {
     background-color: #F5F7FA;
     border: 1px solid #0000001A;
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
-
 .left-card {
-    margin-top: 180px;
+    margin-top: 150px;
+    margin-left: 30px;
 }
 
 .left-card-title {
@@ -438,7 +398,7 @@ section.CTA a.download-brochure {
 /* footer css */
 footer {
     background-color: #414142;
-    color: #fff
+    color: #fff;
 }
 
 footer .content-wrapper address {
@@ -448,11 +408,11 @@ footer .content-wrapper address {
     font-style: normal;
     font-weight: 400;
     opacity: .6;
-    line-height: 25px
+    line-height: 25px;
 }
 
 footer .content-wrapper {
-    margin-bottom: 2em
+    margin-bottom: 2em;
 }
 
 footer .content-wrapper h5 {
@@ -460,12 +420,12 @@ footer .content-wrapper h5 {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 27px
+    line-height: 27px;
 }
 
 footer .content-wrapper h5 i {
     color: #f26d2c;
-    margin-right: 5px
+    margin-right: 5px;
 }
 
 footer .content-wrapper p.email a {
@@ -473,17 +433,17 @@ footer .content-wrapper p.email a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 27px
+    line-height: 27px;
 }
 
 footer .content-wrapper p.email i {
-    margin-right: 5px
+    margin-right: 5px;
 }
 
 ul.course-list {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 ul.course-list li {
@@ -494,7 +454,7 @@ ul.course-list li a {
     opacity: .6;
     color: #FFF;
     font-size: 16px;
-    line-height: 25px
+    line-height: 25px;
 }
 
 ul.social-nav li a {
@@ -503,46 +463,45 @@ ul.social-nav li a {
 }
 
 section.main-banner img.g-vector {
-    width: 84%
+    width: 84%;
 }
 
 footer .call-wrapper a {
     color: #fff;
     font-size: 16px;
-    line-height: 27px
+    line-height: 27px;
 }
 
 footer .call-wrapper i {
-    color: #F69320
+    color: #F69320;
 }
 
 footer .branch {
     display: flex;
     align-items: center;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
 
 footer .branch ul.branch-list {
-    margin: 0
+    margin: 0;
 }
 
 footer .branch ul.branch-list i {
-    margin-right: 11px
+    margin-right: 11px;
 }
-
 footer .branch ul.branch-list li {
     position: relative;
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 footer .branch ul.branch-list li:after {
     content: "|";
     position: absolute;
-    right: -12px
+    right: -12px;
 }
 
 footer .branch ul.branch-list li:last-child:after {
-    opacity: 0
+    opacity: 0;
 }
 
 .footer-text p {
@@ -552,16 +511,16 @@ footer .branch ul.branch-list li:last-child:after {
     font-style: normal;
     font-weight: 300;
     line-height: 27px;
-    opacity: .5
+    opacity: .5;
 }
 
 ul.footer-nav {
-    display: flex
+    display: flex;
 }
 
 ul.footer-nav li {
     padding-left: 20px;
-    position: relative
+    position: relative;
 }
 
 ul.footer-nav li:after {
@@ -569,20 +528,23 @@ ul.footer-nav li:after {
     position: absolute;
     right: -12px;
     color: #fff;
-    opacity: .5
+    opacity: .5;
 }
 
 ul.footer-nav li:last-child:after {
-    opacity: 0
+    opacity: 0;
 }
 
 ul.footer-nav li a {
     color: #fff;
     opacity: .5;
-    font-size: 14px
+    font-size: 14px;
 }
 
-@media(max-width: 1600px) {
+
+
+
+/* @media(max-width: 1600px) {
     section.main-banner img.g-vector {
         width: 77%
     }
@@ -590,55 +552,55 @@ ul.footer-nav li a {
 
 @media(max-width: 1199px) {
     #mainNav li {
-        padding-left: 5px
+        padding-left: 5px;;
     }
 
     #mainNav li a {
-        font-size: 14px
+        font-size: 14px;
     }
 
     .get-free-demo {
-        font-size: 14px
+        font-size: 14px;
     }
 
     section.main-banner h2.main-title.py-2 {
-        font-size: 36px
+        font-size: 36px;
     }
 
     .our-students-slider .card .card-body ul li {
         font-size: 10px;
-        padding: 5px 10px
+        padding: 5px 10px;
     }
 
     .our-students-slider .card .card-body p.para {
-        min-height: 100px
+        min-height: 100px;
     }
 
     ul.why-choose-cf-list li .content-wrapper h2 {
-        font-size: 150px
+        font-size: 150px;
     }
 }
 
 @media(max-width: 992px) {
     header {
-        position: relative
+        position: relative;
     }
 
     .get-free-demo {
         font-size: 14px;
         position: absolute;
         top: 60px;
-        right: 8em
+        right: 8px;
     }
 
     header nav.navbar.navbar-expand-lg.fixed-header .get-free-demo {
-        top: 20px
+        top: 20px;
     }
 
     ul.why-choose-cf-list li .content-wrapper p.para {
         font-size: 14px;
         width: 100%;
-        line-height: 18px
+        line-height: 18px;
     }
 
     section.main-banner {
@@ -663,7 +625,7 @@ ul.footer-nav li a {
     }
 
     .footer-text {
-        text-align: center
+        text-align: center;
     }
 
     ul.footer-nav {
@@ -671,7 +633,7 @@ ul.footer-nav li a {
     }
 
     ul.why-choose-cf-list li .content-wrapper h2 {
-        font-size: 100px
+        font-size: 100px;
     }
 }
 
@@ -686,7 +648,7 @@ ul.footer-nav li a {
 
     .section-title-wrapper.d-flex.align-items-baseline.mb-5 {
         display: flex;
-        justify-content: center
+        justify-content: center;
     }
 
     h1.section-title,
@@ -695,7 +657,7 @@ ul.footer-nav li a {
     }
 
     .community h2.section-title {
-        font-size: 28px
+        font-size: 28px;
     }
 
     .section-title-wrapper svg {
@@ -708,7 +670,7 @@ ul.footer-nav li a {
 
     ul.why-choose-cf-list li {
         width: 100%;
-        height: 240px
+        height: 240px;
     }
 
     ul.why-choose-cf-list li .content-wrapper {
@@ -742,12 +704,12 @@ ul.footer-nav li a {
     }
 
     ul.nav.nav-tabs.os-nav-tabs {
-        margin-bottom: 15px
+        margin-bottom: 15px;
     }
 
     ul.nav.nav-tabs.os-nav-tabs li a.nav-link {
         font-size: 16px;
-        text-align: center
+        text-align: center;
     }
 
     div#js-prev1 {
@@ -756,7 +718,7 @@ ul.footer-nav li a {
 
     div#js-prev1 i,
     div#js-next1 i {
-        font-size: 20px
+        font-size: 20px;
     }
 
     div#js-next1 {
@@ -767,15 +729,15 @@ ul.footer-nav li a {
         padding: 0 28px;
         font-size: 16px;
         margin-top: 20px;
-        line-height: 22px
+        line-height: 22px;
     }
 
     .start-rating.d-flex.mt-3 {
-        padding-left: 20px
+        padding-left: 20px;
     }
 
     .community {
-        height: auto
+        height: auto;
     }
 
     .community p.para {
@@ -783,7 +745,7 @@ ul.footer-nav li a {
     }
 
     ul.community-list.counter-list {
-        flex-direction: column
+        flex-direction: column;
     }
 
     ul.community-list.counter-list li {
@@ -792,7 +754,7 @@ ul.footer-nav li a {
     }
 
     ul.community-list.counter-list li:last-child {
-        margin-bottom: 0
+        margin-bottom: 0;
     }
 
     section.section-padding.why-choose-cf {
@@ -801,7 +763,7 @@ ul.footer-nav li a {
 
     h1.section-title {
         text-align: left;
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
     ul.why-choose-cf-list {
@@ -823,12 +785,12 @@ ul.footer-nav li a {
     .branch.d-flex {
         display: flex;
         justify-content: center;
-        margin-top: 28px
+        margin-top: 28px;
     }
 
     ul.footer-nav {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
     }
 
     ul.footer-nav li:after {
@@ -837,59 +799,59 @@ ul.footer-nav li a {
 
     .slider-card {
         width: 90px;
-        height: 100px
+        height: 100px;
     }
 
     .slider-card.s-card-1 {
         left: -5px;
-        top: 42px
+        top: 42px;
     }
 
     .slider-card.s-card-2 {
         right: 9%;
-        top: 10%
+        top: 10%;
     }
 
     .slider-card h2.slider-text-1 {
-        font-size: 18px
+        font-size: 18px;
     }
 
     .slider-card p.slider-text-2 {
         font-size: 13px;
-        line-height: 16px
+        line-height: 16px;
     }
 
     section.main-banner img.g-vector {
         width: 350px;
         margin-top: 5em;
-        margin-left: 2em
+        margin-left: 2em;
     }
 
     #vector {
         width: 200px;
-        bottom: -35px
+        bottom: -35px;
     }
 
     .call-me-wrapper {
         text-align: center;
-        padding: 10px 0
+        padding: 10px 0;
     }
 
     section.main-banner h2.main-title.py-2 {
-        font-size: 28px
+        font-size: 28px;
     }
 
     .img-wrapper.position-relative.text-center {
-        margin-top: 0
+        margin-top: 0;
     }
 
     .card.empowering.card-body {
-        margin-bottom: 20px
+        margin-bottom: 20px;
     }
 
     div#js_prev2,
     div#js_next2 {
-        padding: 15px 0
+        padding: 15px 0;
     }
 
     .swiper-container.our-students-slider {
@@ -901,14 +863,14 @@ ul.footer-nav li a {
         top: auto;
         left: 34%;
         border: 1px solid #000;
-        bottom: -60px
+        bottom: -60px;
     }
 
     div#js-next3 {
         top: auto;
         border: 1px solid #000;
         right: 34%;
-        bottom: -60px
+        bottom: -60px;
     }
 
     a.get-free-demo {
@@ -925,4 +887,320 @@ ul.footer-nav li a {
     footer.section-padding.pb-3 {
         padding-bottom: 3em !important
     }
+} */
+
+@media (max-width: 767px) {
+    .ticker-wrap .ticker {
+        font-size: 14px;
+    }
+
+    .banner-content {
+        padding: 100px 0;
+    }
+
+    .card {
+        width: auto;
+        padding: 0px 0px;
+        top: 0px;
+        height: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .text-pad {
+        padding: 20px;
+    }
+
+    .price-section {
+        position: relative;
+        top: 0;
+    }
+
+    .card-text {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .text-1200 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .calender-text {
+        font-size: 14px;
+    }
+
+    .btn-clr {
+        font-size: 14px;
+        padding: 6px 16px;
+        margin-top: 15px;
+    }
+
+    .help {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .help2 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .topic-section {
+        padding: 20px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .tl-line {
+        padding: 10px;
+    }
+
+    .lessons {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .left-card {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .left-card-title {
+        width: auto;
+        padding: 15px 20px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .left-card-content {
+        width: auto;
+        padding: 10px;
+    }
+
+    .course-list {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    section.CTA {
+        padding: 2em 0;
+    }
+
+    section.CTA p.para {
+        width: 100%;
+    }
+
+    section.CTA a.download-brochure {
+        padding: 8px 16px;
+    }
+
+    footer .content-wrapper h5 {
+        font-size: 16px;
+    }
+
+    footer .content-wrapper p.email,
+    footer .content-wrapper address {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    footer .call-wrapper a,
+    footer .content-wrapper p.email a {
+        font-size: 14px;
+    }
+
+    footer .content-wrapper p.email i,
+    footer .call-wrapper i {
+        font-size: 14px;
+    }
+
+    ul.course-list li {
+        width: 100%;
+    }
+
+    ul.social-nav li a {
+        padding-right: 10px;
+    }
+
+    ul.footer-nav li {
+        padding-left: 15px;
+    }
+
+    .footer-text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    ul.footer-nav li:after {
+        opacity: 0;
+    }
+
+    section.main-banner img.g-vector {
+        width: 250px;
+        margin-top: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .ticker-wrap .ticker {
+        font-size: 16px;
+    }
+
+    .banner-content {
+        padding: 0px 0;
+    }
+
+    .rating-text{
+        margin-left: 0px; 
+    }
+
+    .card {
+        width: auto;
+        margin-left: 40px;
+        margin-right: 40px;
+      
+    }
+
+    .text-pad {
+        padding: 30px;
+    }
+
+    .price-section {
+        top: 50px;
+    }
+
+
+    .card-text {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .text-1200 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .calender-text {
+        font-size: 14px;
+    }
+
+    .btn-clr {
+        font-size: 14px;
+        padding: 8px 20px;
+       
+    }
+
+    .help {
+        margin-left: 10px;
+      
+    }
+
+    .help2 {
+        font-size: 16px;
+    }
+
+    .topic-section {
+        padding: 30px 30px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .tl-line {
+        padding: 15px 30px;
+    }
+
+    .lessons {
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+
+    .left-card {
+        margin-top: 20px;
+        margin-left:0px;
+    }
+
+    .left-card-title {
+        width: auto;
+        padding: 20px 40px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .left-card-content {
+        width: auto;
+        padding: 15px 20px;
+    }
+
+    .course-list {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    section.CTA {
+        padding: 3em 0;
+    }
+
+    section.CTA p.para {
+        width: 80%;
+    }
+
+    section.CTA a.download-brochure {
+        padding: 12px 24px;
+    }
+
+    footer .content-wrapper h5 {
+        font-size: 20px;
+    }
+
+    footer .content-wrapper p.email,
+    footer .content-wrapper address {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    footer .call-wrapper a,
+    footer .content-wrapper p.email a {
+        font-size: 18px;
+    }
+
+    footer .content-wrapper p.email i,
+    footer .call-wrapper i {
+        font-size: 18px;
+    }
+
+    ul.course-list li {
+        width: 100%;
+    }
+
+    ul.social-nav li a {
+        padding-right: 20px;
+    }
+
+    ul.footer-nav li {
+        padding-left: 25px;
+    }
+
+    .footer-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    ul.footer-nav li:after {
+        opacity: 0;
+    }
+
+    section.main-banner img.g-vector {
+        width: 300px;
+        margin-top: 3em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
