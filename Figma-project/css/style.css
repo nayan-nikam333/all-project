@@ -232,12 +232,10 @@ span.line {
     font-weight: 600;
 }
 
-
 .theme-sub-tiltle {
     font-size: 18px;
     font-weight: 400;
 }
-
 
 .user-icon-clr {
     color: #F2B827;
@@ -245,13 +243,8 @@ span.line {
 
 .price-section {
     position: absolute;
-}
-
-.card {
-    width: 465px;
-    height: 565px;
-    top: 218px;
-    margin-left: 80px;
+    padding: 80px 106px;
+    top: 210px;
 }
 
 .card-text {
@@ -259,6 +252,7 @@ span.line {
     font-weight: 600;
     font-size: 30px;
     line-height: 35.19px;
+    padding: 20px;
 }
 
 .text-pad {
@@ -292,6 +286,9 @@ span.line {
     line-height: 17.6px;
     padding: 8px 20px;
     margin-top: 20px;
+}
+.blue-btn{
+    padding: 17px;
 }
 
 .nav-section {
@@ -897,15 +894,7 @@ ul.footer-nav li a {
     .banner-content {
         padding: 100px 0;
     }
-
-    .card {
-        width: auto;
-        padding: 0px 0px;
-        top: 0px;
-        height: 400px;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
+ 
 
     .text-pad {
         padding: 20px;
@@ -914,6 +903,8 @@ ul.footer-nav li a {
     .price-section {
         position: relative;
         top: 0;
+        width: auto;
+        padding: 0px 0px;
     }
 
     .card-text {
@@ -1060,11 +1051,8 @@ ul.footer-nav li a {
         margin-left: 0px; 
     }
 
-    .card {
+    .price-section {
         width: auto;
-        margin-left: 40px;
-        margin-right: 40px;
-      
     }
 
     .text-pad {
@@ -1073,6 +1061,7 @@ ul.footer-nav li a {
 
     .price-section {
         top: 50px;
+        padding: 88px 8px;
     }
 
 
